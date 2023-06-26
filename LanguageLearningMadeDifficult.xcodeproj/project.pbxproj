@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EA025082A49254C00649965 /* QuizManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA025072A49254C00649965 /* QuizManager.swift */; };
+		5EBB6D492A437AF90070C3F9 /* NewPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBB6D482A437AF90070C3F9 /* NewPageView.swift */; };
+		5EBC394A2A439934008D3226 /* English.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBC39492A439934008D3226 /* English.swift */; };
+		5EBC394C2A43994D008D3226 /* Russian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBC394B2A43994D008D3226 /* Russian.swift */; };
+		5EBC394E2A439959008D3226 /* Spanish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBC394D2A439959008D3226 /* Spanish.swift */; };
+		5EBC39522A439991008D3226 /* French.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBC39512A439991008D3226 /* French.swift */; };
+		5EE7CF842A35658A00BBBC30 /* LanguageLearningMadeDifficultApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE7CF832A35658A00BBBC30 /* LanguageLearningMadeDifficultApp.swift */; };
+		5EE7CF862A35658A00BBBC30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE7CF852A35658A00BBBC30 /* ContentView.swift */; };
+		5EE7CF882A35658C00BBBC30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EE7CF872A35658C00BBBC30 /* Assets.xcassets */; };
+		5EE7CF8B2A35658C00BBBC30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EE7CF8A2A35658C00BBBC30 /* Preview Assets.xcassets */; };
+		5EE7CF952A35658C00BBBC30 /* LanguageLearningMadeDifficultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE7CF942A35658C00BBBC30 /* LanguageLearningMadeDifficultTests.swift */; };
+		5EE7CF9F2A35658C00BBBC30 /* LanguageLearningMadeDifficultUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE7CF9E2A35658C00BBBC30 /* LanguageLearningMadeDifficultUITests.swift */; };
+		5EE7CFA12A35658C00BBBC30 /* LanguageLearningMadeDifficultUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE7CFA02A35658C00BBBC30 /* LanguageLearningMadeDifficultUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EE7CF912A35658C00BBBC30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EE7CF782A35658A00BBBC30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EE7CF7F2A35658A00BBBC30;
+			remoteInfo = LanguageLearningMadeDifficult;
+		};
+		5EE7CF9B2A35658C00BBBC30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EE7CF782A35658A00BBBC30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EE7CF7F2A35658A00BBBC30;
+			remoteInfo = LanguageLearningMadeDifficult;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5EA025072A49254C00649965 /* QuizManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizManager.swift; sourceTree = "<group>"; };
+		5EBB6D482A437AF90070C3F9 /* NewPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPageView.swift; sourceTree = "<group>"; };
+		5EBC39492A439934008D3226 /* English.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = English.swift; sourceTree = "<group>"; };
+		5EBC394B2A43994D008D3226 /* Russian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Russian.swift; sourceTree = "<group>"; };
+		5EBC394D2A439959008D3226 /* Spanish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spanish.swift; sourceTree = "<group>"; };
+		5EBC39512A439991008D3226 /* French.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = French.swift; sourceTree = "<group>"; };
+		5EE7CF802A35658A00BBBC30 /* LanguageLearningMadeDifficult.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LanguageLearningMadeDifficult.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EE7CF832A35658A00BBBC30 /* LanguageLearningMadeDifficultApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageLearningMadeDifficultApp.swift; sourceTree = "<group>"; };
+		5EE7CF852A35658A00BBBC30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5EE7CF872A35658C00BBBC30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EE7CF8A2A35658C00BBBC30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5EE7CF902A35658C00BBBC30 /* LanguageLearningMadeDifficultTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LanguageLearningMadeDifficultTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EE7CF942A35658C00BBBC30 /* LanguageLearningMadeDifficultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageLearningMadeDifficultTests.swift; sourceTree = "<group>"; };
+		5EE7CF9A2A35658C00BBBC30 /* LanguageLearningMadeDifficultUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LanguageLearningMadeDifficultUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EE7CF9E2A35658C00BBBC30 /* LanguageLearningMadeDifficultUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageLearningMadeDifficultUITests.swift; sourceTree = "<group>"; };
+		5EE7CFA02A35658C00BBBC30 /* LanguageLearningMadeDifficultUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageLearningMadeDifficultUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EE7CF7D2A35658A00BBBC30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EE7CF8D2A35658C00BBBC30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EE7CF972A35658C00BBBC30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EE7CF772A35658A00BBBC30 = {
+			isa = PBXGroup;
+			children = (
+				5EE7CF822A35658A00BBBC30 /* LanguageLearningMadeDifficult */,
+				5EE7CF932A35658C00BBBC30 /* LanguageLearningMadeDifficultTests */,
+				5EE7CF9D2A35658C00BBBC30 /* LanguageLearningMadeDifficultUITests */,
+				5EE7CF812A35658A00BBBC30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EE7CF812A35658A00BBBC30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EE7CF802A35658A00BBBC30 /* LanguageLearningMadeDifficult.app */,
+				5EE7CF902A35658C00BBBC30 /* LanguageLearningMadeDifficultTests.xctest */,
+				5EE7CF9A2A35658C00BBBC30 /* LanguageLearningMadeDifficultUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EE7CF822A35658A00BBBC30 /* LanguageLearningMadeDifficult */ = {
+			isa = PBXGroup;
+			children = (
+				5EE7CF832A35658A00BBBC30 /* LanguageLearningMadeDifficultApp.swift */,
+				5EE7CF852A35658A00BBBC30 /* ContentView.swift */,
+				5EE7CF872A35658C00BBBC30 /* Assets.xcassets */,
+				5EE7CF892A35658C00BBBC30 /* Preview Content */,
+				5EBB6D482A437AF90070C3F9 /* NewPageView.swift */,
+				5EBC39492A439934008D3226 /* English.swift */,
+				5EBC394B2A43994D008D3226 /* Russian.swift */,
+				5EBC394D2A439959008D3226 /* Spanish.swift */,
+				5EBC39512A439991008D3226 /* French.swift */,
+				5EA025072A49254C00649965 /* QuizManager.swift */,
+			);
+			path = LanguageLearningMadeDifficult;
+			sourceTree = "<group>";
+		};
+		5EE7CF892A35658C00BBBC30 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5EE7CF8A2A35658C00BBBC30 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5EE7CF932A35658C00BBBC30 /* LanguageLearningMadeDifficultTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EE7CF942A35658C00BBBC30 /* LanguageLearningMadeDifficultTests.swift */,
+			);
+			path = LanguageLearningMadeDifficultTests;
+			sourceTree = "<group>";
+		};
+		5EE7CF9D2A35658C00BBBC30 /* LanguageLearningMadeDifficultUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5EE7CF9E2A35658C00BBBC30 /* LanguageLearningMadeDifficultUITests.swift */,
+				5EE7CFA02A35658C00BBBC30 /* LanguageLearningMadeDifficultUITestsLaunchTests.swift */,
+			);
+			path = LanguageLearningMadeDifficultUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EE7CF7F2A35658A00BBBC30 /* LanguageLearningMadeDifficult */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EE7CFA42A35658C00BBBC30 /* Build configuration list for PBXNativeTarget "LanguageLearningMadeDifficult" */;
+			buildPhases = (
+				5EE7CF7C2A35658A00BBBC30 /* Sources */,
+				5EE7CF7D2A35658A00BBBC30 /* Frameworks */,
+				5EE7CF7E2A35658A00BBBC30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LanguageLearningMadeDifficult;
+			productName = LanguageLearningMadeDifficult;
+			productReference = 5EE7CF802A35658A00BBBC30 /* LanguageLearningMadeDifficult.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EE7CF8F2A35658C00BBBC30 /* LanguageLearningMadeDifficultTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EE7CFA72A35658C00BBBC30 /* Build configuration list for PBXNativeTarget "LanguageLearningMadeDifficultTests" */;
+			buildPhases = (
+				5EE7CF8C2A35658C00BBBC30 /* Sources */,
+				5EE7CF8D2A35658C00BBBC30 /* Frameworks */,
+				5EE7CF8E2A35658C00BBBC30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EE7CF922A35658C00BBBC30 /* PBXTargetDependency */,
+			);
+			name = LanguageLearningMadeDifficultTests;
+			productName = LanguageLearningMadeDifficultTests;
+			productReference = 5EE7CF902A35658C00BBBC30 /* LanguageLearningMadeDifficultTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5EE7CF992A35658C00BBBC30 /* LanguageLearningMadeDifficultUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EE7CFAA2A35658C00BBBC30 /* Build configuration list for PBXNativeTarget "LanguageLearningMadeDifficultUITests" */;
+			buildPhases = (
+				5EE7CF962A35658C00BBBC30 /* Sources */,
+				5EE7CF972A35658C00BBBC30 /* Frameworks */,
+				5EE7CF982A35658C00BBBC30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EE7CF9C2A35658C00BBBC30 /* PBXTargetDependency */,
+			);
+			name = LanguageLearningMadeDifficultUITests;
+			productName = LanguageLearningMadeDifficultUITests;
+			productReference = 5EE7CF9A2A35658C00BBBC30 /* LanguageLearningMadeDifficultUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EE7CF782A35658A00BBBC30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5EE7CF7F2A35658A00BBBC30 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					5EE7CF8F2A35658C00BBBC30 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 5EE7CF7F2A35658A00BBBC30;
+					};
+					5EE7CF992A35658C00BBBC30 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 5EE7CF7F2A35658A00BBBC30;
+					};
+				};
+			};
+			buildConfigurationList = 5EE7CF7B2A35658A00BBBC30 /* Build configuration list for PBXProject "LanguageLearningMadeDifficult" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EE7CF772A35658A00BBBC30;
+			productRefGroup = 5EE7CF812A35658A00BBBC30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EE7CF7F2A35658A00BBBC30 /* LanguageLearningMadeDifficult */,
+				5EE7CF8F2A35658C00BBBC30 /* LanguageLearningMadeDifficultTests */,
+				5EE7CF992A35658C00BBBC30 /* LanguageLearningMadeDifficultUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EE7CF7E2A35658A00BBBC30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EE7CF8B2A35658C00BBBC30 /* Preview Assets.xcassets in Resources */,
+				5EE7CF882A35658C00BBBC30 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EE7CF8E2A35658C00BBBC30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EE7CF982A35658C00BBBC30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EE7CF7C2A35658A00BBBC30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EA025082A49254C00649965 /* QuizManager.swift in Sources */,
+				5EBC394C2A43994D008D3226 /* Russian.swift in Sources */,
+				5EBB6D492A437AF90070C3F9 /* NewPageView.swift in Sources */,
+				5EE7CF862A35658A00BBBC30 /* ContentView.swift in Sources */,
+				5EBC394A2A439934008D3226 /* English.swift in Sources */,
+				5EBC39522A439991008D3226 /* French.swift in Sources */,
+				5EBC394E2A439959008D3226 /* Spanish.swift in Sources */,
+				5EE7CF842A35658A00BBBC30 /* LanguageLearningMadeDifficultApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EE7CF8C2A35658C00BBBC30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EE7CF952A35658C00BBBC30 /* LanguageLearningMadeDifficultTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EE7CF962A35658C00BBBC30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EE7CFA12A35658C00BBBC30 /* LanguageLearningMadeDifficultUITestsLaunchTests.swift in Sources */,
+				5EE7CF9F2A35658C00BBBC30 /* LanguageLearningMadeDifficultUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EE7CF922A35658C00BBBC30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EE7CF7F2A35658A00BBBC30 /* LanguageLearningMadeDifficult */;
+			targetProxy = 5EE7CF912A35658C00BBBC30 /* PBXContainerItemProxy */;
+		};
+		5EE7CF9C2A35658C00BBBC30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EE7CF7F2A35658A00BBBC30 /* LanguageLearningMadeDifficult */;
+			targetProxy = 5EE7CF9B2A35658C00BBBC30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5EE7CFA22A35658C00BBBC30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5EE7CFA32A35658C00BBBC30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EE7CFA52A35658C00BBBC30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LanguageLearningMadeDifficult/Preview Content\"";
+				DEVELOPMENT_TEAM = NTQ99B7UUQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ztotheman.LanguageLearningMadeDifficult;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EE7CFA62A35658C00BBBC30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LanguageLearningMadeDifficult/Preview Content\"";
+				DEVELOPMENT_TEAM = NTQ99B7UUQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ztotheman.LanguageLearningMadeDifficult;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5EE7CFA82A35658C00BBBC30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NTQ99B7UUQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ztotheman.LanguageLearningMadeDifficultTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LanguageLearningMadeDifficult.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LanguageLearningMadeDifficult";
+			};
+			name = Debug;
+		};
+		5EE7CFA92A35658C00BBBC30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NTQ99B7UUQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ztotheman.LanguageLearningMadeDifficultTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LanguageLearningMadeDifficult.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LanguageLearningMadeDifficult";
+			};
+			name = Release;
+		};
+		5EE7CFAB2A35658C00BBBC30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NTQ99B7UUQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ztotheman.LanguageLearningMadeDifficultUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LanguageLearningMadeDifficult;
+			};
+			name = Debug;
+		};
+		5EE7CFAC2A35658C00BBBC30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NTQ99B7UUQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ztotheman.LanguageLearningMadeDifficultUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LanguageLearningMadeDifficult;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EE7CF7B2A35658A00BBBC30 /* Build configuration list for PBXProject "LanguageLearningMadeDifficult" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EE7CFA22A35658C00BBBC30 /* Debug */,
+				5EE7CFA32A35658C00BBBC30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EE7CFA42A35658C00BBBC30 /* Build configuration list for PBXNativeTarget "LanguageLearningMadeDifficult" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EE7CFA52A35658C00BBBC30 /* Debug */,
+				5EE7CFA62A35658C00BBBC30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EE7CFA72A35658C00BBBC30 /* Build configuration list for PBXNativeTarget "LanguageLearningMadeDifficultTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EE7CFA82A35658C00BBBC30 /* Debug */,
+				5EE7CFA92A35658C00BBBC30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EE7CFAA2A35658C00BBBC30 /* Build configuration list for PBXNativeTarget "LanguageLearningMadeDifficultUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EE7CFAB2A35658C00BBBC30 /* Debug */,
+				5EE7CFAC2A35658C00BBBC30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EE7CF782A35658A00BBBC30 /* Project object */;
+}
